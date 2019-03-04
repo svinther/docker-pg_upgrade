@@ -28,4 +28,4 @@ COPY docker-upgrade /usr/local/bin/
 ENTRYPOINT ["docker-upgrade"]
 
 # recommended: --link
-CMD ["pg_upgrade", "'--link"]
+CMD ["pg_upgrade", "--link"]
